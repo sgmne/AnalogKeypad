@@ -4,7 +4,7 @@ In pin-restricted microcontroller designs it is common to use
 analog pins and sets of resistors to encode button switch
 inputs to one or few pins. When a larger number of buttons
 is used the conventional method of encoding the buttons
-by resisitve voltage dividers becomes complex and inaccurate.
+by resistive voltage dividers becomes complex and inaccurate.
 Furthermore, such design requires complex algorithm to decode
 the button or very accurate resistor selection.
 
@@ -25,3 +25,5 @@ the key matrix and a 330k resistor for the reference current.
 For 4x4 keypad the corresponding values are 68k, 270k, and 1M,
 or alternatively 82k, 330k, and 1.2M. Any pair of close-enough
 C-class (beta > 400) small-signal NPN transistors will suffice.
+
+This circuit is discussed in [this video](https://youtu.be/pQMzIPOyPKk).
